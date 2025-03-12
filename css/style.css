@@ -3,6 +3,10 @@ body {
     background-color: #BDBDBD;
 }
 
+.content {
+    margin-top: 115px;
+}
+
 .container {
     position: relative;
     max-width: 430px;
@@ -88,9 +92,9 @@ body {
     position: absolute;
     content: '';
     left: 0;
-    bottom: 0;
+    bottom: -64px;
     width: 1px;
-    height: calc(100% + 25px);
+    height: calc(100% + 128px);
     background-color: #757575;
 }
 
@@ -108,8 +112,7 @@ body {
 
 
 .contacts {
-    padding-top: 100px;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 .contacts_title {
