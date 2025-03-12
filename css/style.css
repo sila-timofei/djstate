@@ -54,7 +54,7 @@ body {
 }
 
 .ava_img {
-    height: 630px;
+    height: 550px;
     background-image: url('../img/ava.jpg');
     background-size: cover;
     display: flex;
@@ -82,7 +82,6 @@ body {
 .about {
     position: relative;
     padding-top: 25px;
-    padding-bottom: 64px;
 }
 
 .about > .container::after {
@@ -106,6 +105,12 @@ body {
     padding-left: 12px;
 }
 
+
+
+.contacts {
+    padding-top: 100px;
+    padding-bottom: 64px;
+}
 
 .contacts_title {
     position: relative;
@@ -192,6 +197,7 @@ body {
 
 .photos_img {
     margin-bottom: 16px;
+    object-fit: cover;
 }
 
 .photos_img:nth-child(odd) {
