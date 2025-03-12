@@ -85,7 +85,7 @@ body {
 
 .about {
     position: relative;
-    padding-top: 25px;
+    padding-top: 64px;
 }
 
 .about > .container::after {
