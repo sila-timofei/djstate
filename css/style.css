@@ -147,44 +147,95 @@ body {
 }
 
 .contacts_social-link {
+    position: relative;
     padding: 14px 12px;
-    background: #F3F3F6;
+    background-color: #0AA5E6;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #212121;
-    font-size: 22px;
+    color: #fff;
     margin-right: 14px;
     margin-top: 14px;
+    width: 160px;
+    height: 160px;
 }
 
 .contacts_social-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
+    width: 70px;
+    height: 70px;
     background-position: center;
-    background-size: cover;
-    margin-right: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .contacts_social-icon-tg {
     background-image: url('../img/tg.svg');
 }
 
+.contacts_social-icon-tg::after {
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    content: 'Telegram';
+    bottom: 10px;
+    left: 14px;
+}
+
 .contacts_social-icon-whatsApp {
     background-image: url('../img/whatsapp.svg');
+}
+
+.contacts_social-icon-whatsApp::after {
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    content: 'WhatsApp';
+    bottom: 10px;
+    left: 14px;
 }
 
 .contacts_social-icon-vk {
     background-image: url('../img/vk.svg');
 }
 
+.contacts_social-icon-vk::after {
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    content: 'Vkontacte';
+    bottom: 10px;
+    left: 14px;
+}
+
 .contacts_social-icon-instagram {
     background-image: url('../img/insta.svg');
 }
 
+.contacts_social-icon-instagram::after {
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    content: 'Instagram';
+    bottom: 10px;
+    left: 14px;
+}
+
+.contacts_social-link-tel {
+    width: 334px;
+}
+
 .contacts_social-icon-tel {
     background-image: url('../img/tel.svg');
+}
+
+.contacts_social-icon-tel::after {
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    content: 'Телефон';
+    bottom: 10px;
+    left: 14px;
 }
 
 
